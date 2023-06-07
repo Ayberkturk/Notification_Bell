@@ -1,0 +1,95 @@
+body {
+  margin: 25px;
+}
+
+.icon-button {
+  position: fixed;
+  top: 190px;
+  right: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  color: white;
+  background: #9a3869;
+  border: none;
+  outline: none;
+  border-radius: 40%;
+}
+
+.icon-button:hover {
+  cursor: pointer;
+}
+
+.icon-button:active {
+  background: #e0d6d6;
+}
+
+.notification-card {
+  position: absolute;
+  right: 50px;
+  top: 10px;
+  width: 300px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+@media (max-width: 360px) {
+  .notification-card {
+    width: 250px;
+  }
+}
+
+.notification-card-header {
+  background: #9a3869;
+  color: white;
+  margin: 0;
+  font-size: 18px;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 0.5rem;
+}
+
+.item-img {
+  height: 60px;
+  width: 70px;
+  border-radius: 5px;
+}
+
+.item-header {
+  font-size: 14px;
+  margin: 0;
+}
+
+.item-subtext {
+  font-size: 12px;
+  margin: 0;
+}
+
+.item-subtext-2 {
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+.badge {
+  bottom: 1.5rem;
+  border: 1px solid #9a3869;
+  color: white;
+  background-color: #9a3869;
+  border-radius: 18px;
+  font-size: 12px;
+  padding-right: 0.35rem;
+  padding-left: 0.35rem;
+}
